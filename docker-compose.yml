@@ -3,7 +3,7 @@ version: '3'
 
 services:
   nginx:
-    image: ichikawayukko/nginx_letsencrypt:1.17.10-alpine 
+    image: ichikawayukko/nginx_letsencrypt:1.19.1-alpine 
     volumes:
       - ./nginx.conf:/etc/nginx/nginx.conf:ro
       - ./volume/htdocs/:/var/www/html/:z
