@@ -10,7 +10,7 @@ Just run
 ## Get new certificate (or add domains)
 Run
 
-`docker-compose exec reverse-proxy sh`
+`docker-compose exec nginx sh`
 
 Then you will get into container's prompt.
 
