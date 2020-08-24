@@ -3,7 +3,9 @@ Nginx with Let's Encrypt client (certbot) and crond for auto renew.
 
 # Usage
 ## Launch server
-Just run
+Set HEALTHCHECK_URL (You will host that in this container) in docker-compose.yml
+
+And just run
 
 `docker-compose up -d`
 
