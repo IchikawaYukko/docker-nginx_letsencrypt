@@ -29,4 +29,5 @@ So you don't need to run manually.
 
 Renew job will reload nginx to apply new certificates.
 
-If it fails renewing, you can run `certbot renew` to investigate.
+If it fails renewing, you can run `certbot renew` to investigate.  
+Or run `certbot renew --dry-run` to test renewing.
