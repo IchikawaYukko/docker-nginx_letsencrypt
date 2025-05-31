@@ -1,5 +1,7 @@
 # docker-nginx_letsencrypt
-Nginx with Let's Encrypt client (certbot) and crond for auto renew.
+*Nginx* with *Let's Encrypt* client (certbot) and crond for **auto renewing**.
+
+[**ChaCha20-Poly1305**](https://datatracker.ietf.org/doc/html/rfc7539) is the most preferred cipher suite in this container. (You can override this by `ssl_ciphers` directive on `nginx.conf`)
 
 # Usage
 ## Launch server
