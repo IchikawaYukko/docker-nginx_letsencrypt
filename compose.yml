@@ -1,9 +1,9 @@
 # Usage Example
-version: '3'
-
 services:
   nginx:
-    image: ichikawayukko/nginx_letsencrypt
+    image: ichikawayukko/nginx_letsencrypt:1.30.0
+    build:
+      context: 1.30.0/
     environment:
       - HEALTHCHECK_URL=https://example.com
     volumes:
